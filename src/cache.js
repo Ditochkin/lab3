@@ -52,11 +52,4 @@ class Cache
     }
 }
 
-
-
-const cache = new Cache();
-cache.setValue("Dog", "Druzhok", 1);
-
-console.log(cache.getStatistic());
-
 export {Cache}

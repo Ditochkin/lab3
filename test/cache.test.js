@@ -26,5 +26,5 @@ test('test3', () => {
 test('test4', () => {
     const cache = new Cache();
     cache.setValue("Dog", "Druzhok", 1);
-    expect(cache.statistic()).toBe("Set:  Dog  Druzhok  1\n");
+    expect(cache.getStatistic()).toEqual("Set:  Dog  Druzhok  1\n");
 });
